@@ -1,0 +1,209 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/181137.jpg);    
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    display:  inline-block;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+
+}
+
+img{
+    border-radius: 50%;
+    height: 50;
+    vertical-align: middle;
+    margin: 0px 12px 0px 0px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 7% ;
+    margin-top: 2%;
+}
+
+.word{
+    color:rgb(186, 175, 175);
+    
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 80% ;
+
+}
+
+main{
+    margin-left: 10%;
+    margin-top: 12%;
+}
+
+main p{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    opacity: 0.7;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main h1{
+    color: white;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+main h1 img{
+    margin-left: 3px;
+    vertical-align: baseline;
+}
+
+main div{
+    color: whitesmoke;
+    font-weight: lighter;
+    opacity: 0.7;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+main div a{
+    text-decoration: none;
+    color: rgb(8, 111, 255);
+}    
+
+footer .names{
+    background-color: rgb(28, 40, 58);
+    height: 90px;
+    width: 300px;
+    margin-left: 8% ;
+    margin-top: 7%;
+    border-radius: 40px;
+    padding-top: 1%;
+    
+}
+
+
+
+.names p{
+    color: white;
+    margin-left: 15%;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+.names input{
+    margin-top: 4%;
+    width: 60%;
+    background-color: rgb(28, 40, 58);
+    color: white;
+    border: 0px solid rgb(28, 40, 58);
+    font-size: larger;
+    margin-left: 15%;
+    position: static;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.names img{
+    float: right;
+    height: 40px;
+    
+}
+
+footer{
+    display: inline-flex;
+    margin-left: 5%;
+}
+
+footer .names:hover{
+    border: 2px solid rgb(110, 110, 214);
+}
+
+.info{
+    background-color: rgb(28, 40, 58);
+    height: 90px;
+    width: 550px;
+    margin-left: 9% ;
+    margin-top: 2%;
+    border-radius: 40px;
+    padding-top: 1%;
+}
+
+.info p{
+    
+        color: white;
+        margin-left: 7%;
+        margin-top: 10px;
+        opacity: 0.5;
+    
+}
+
+.info input{
+    margin-top: 4%;
+    width: 60%;
+    background-color: rgb(28, 40, 58);
+    color: white;
+    border: 0px solid rgb(28, 40, 58);
+    font-size: larger;
+    margin-left: 7%;
+    position: static;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.info img{
+    float: right;
+}
+
+.info:hover{
+    border: 2px solid rgb(110, 110, 214);
+    background-color:  rgb(42, 54, 73);
+    
+}
+
+.btn{
+    margin-left: 9%;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+#b1{
+    height: 90px;
+    width: 260px;
+    background-color: rgb(105, 105, 105);
+    color: white;
+    border-radius: 50px;
+    border: 0px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+#b2{
+    height: 90px;
+    width: 260px;
+    background-color: rgb(12, 119, 186);
+    color: white;
+    border-radius: 50px;
+    border: 0px;
+    margin-left: 2%;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+
+
